@@ -1,0 +1,47 @@
+# Virtual environment (venv)
+venv/
+.env/
+.venv/
+
+# Cache files and other system files
+__pycache__/          # Python bytecode cache
+*.py[cod]
+*.pyc                 # Compiled Python files
+*.pyo                 # Optimized compiled Python files
+*.pyd                 # Python dynamic module
+*.pdb                 # Python debugger files
+
+# Editor temporary files
+*.swp                 # Vim swap files
+*.swo                 # Vim backup files
+*.bak                 # Backup files
+*~                    # Temporary backup files
+# Storage files
+storage/*              # Database files
+# Secret data
+secret/*
+!secret/*example.json
+
+# IDE configuration files (e.g., PyCharm, VSCode)
+.vscode/              # VSCode settings
+.idea/                # JetBrains IDE settings
+
+# Log files
+**.log                 # Log files
+
+# Pytest and other testing files
+*.cover               # Coverage reports
+.tox/                 # Tox virtual environments
+.nox/                 # Nox virtual environments
+.coverage             # Coverage report files
+*.hypothesis/         # Hypothesis test files
+
+# Build and distribution files
+build/                # Build directory
+dist/                 # Distribution directory
+*.egg-info/           # Egg information directory
+.eggs/                # Temporary egg files
+
+# Dependency management files (lock files)
+Pipfile.lock          # Lock file for Pipenv
+poetry.lock           # Lock file for Poetry

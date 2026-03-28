@@ -1,0 +1,25 @@
+annotated-types==0.7.0
+dbus-python==1.4.0 ; platform_system == "Linux"
+evdev==1.9.2 ; platform_system == "Linux"
+fuzzywuzzy==0.18.0
+google-api-python-client==2.179.0
+google-auth==2.40.3
+greenlet==3.2.4
+gspread==6.2.1
+Levenshtein==0.27.3
+mss==10.1.0
+packaging==25.0
+pillow==12.0.0
+plyer==2.1.0
+pydantic==2.12.5
+pydantic_core==2.41.5
+pynput==1.8.1
+pytesseract==0.3.13
+python-Levenshtein==0.27.3
+python-xlib==0.33 ; platform_system == "Linux"
+RapidFuzz==3.14.3
+six==1.17.0
+SQLAlchemy==2.0.44
+sqlmodel==0.0.27
+typing-inspection==0.4.2
+typing_extensions==4.15.0
