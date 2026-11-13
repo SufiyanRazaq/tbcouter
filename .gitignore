@@ -45,3 +45,15 @@ dist/                 # Distribution directory
 # Dependency management files (lock files)
 Pipfile.lock          # Lock file for Pipenv
 poetry.lock           # Lock file for Poetry
+
+# Clan Ledger website and Cloudflare local state
+node_modules/
+.wrangler/
+.dev.vars
+.dev.vars.*
+.setup-link
+.env.local
+coverage/
+public/ocr/
+/dist/
+.production-secrets.json

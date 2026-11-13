@@ -1,5 +1,17 @@
 # Total Battle Chest Counter
 
+## New: Clan Ledger website
+
+Live website: [Clan Ledger](https://clan-ledger.sufiyanrazaq55.workers.dev), hosted in your personal Cloudflare account. Use the private owner setup link for the initial admin account.
+
+The new website adds a public chest ledger and leaderboard, admin-managed players and points, browser screen reading, screenshot review, retry-safe chest entries, CSV exports, and a Cloudflare D1 database.
+
+See [the website setup and capture guide](docs/CLAN_LEDGER.md) for first use, Cloudflare deployment, and the exact accuracy limits. Start a local preview with `npm ci`, `npm run build`, `npm run db:local`, then `npm run preview`.
+
+The website counts verified openings of the **top chest one at a time** after you share the game tab/window. It does not silently attach to a game session or promise error-free OCR.
+
+## Legacy Windows counter
+
 Unofficial Windows chest counter for Total Battle.
 
 This tool reads chest rows while you open chests manually, saves the detected player/chest/source data locally, and exports a weekly CSV summary.

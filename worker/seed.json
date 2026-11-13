@@ -1,0 +1,1482 @@
+{
+  "rules": [
+    {
+      "id": "rule-1",
+      "key": "Arena",
+      "name": "Arena",
+      "source": "Arena",
+      "level": 0,
+      "points": 30,
+      "aliases": [
+        "arena",
+        "Arena"
+      ]
+    },
+    {
+      "id": "rule-2",
+      "key": "Wooden Chest",
+      "name": "Wooden Chest",
+      "source": "Wooden Chest",
+      "level": 0,
+      "points": 10,
+      "aliases": [
+        "wooden chest",
+        "Wooden Chest"
+      ]
+    },
+    {
+      "id": "rule-3",
+      "key": "Bronze Chest",
+      "name": "Bronze Chest",
+      "source": "Bronze Chest",
+      "level": 0,
+      "points": 20,
+      "aliases": [
+        "bronze chest",
+        "Bronze Chest"
+      ]
+    },
+    {
+      "id": "rule-4",
+      "key": "Silver Chest",
+      "name": "Silver Chest",
+      "source": "Silver Chest",
+      "level": 0,
+      "points": 40,
+      "aliases": [
+        "silver chest",
+        "Silver Chest"
+      ]
+    },
+    {
+      "id": "rule-5",
+      "key": "Golden Chest",
+      "name": "Golden Chest",
+      "source": "Golden Chest",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "golden chest",
+        "Golden Chest"
+      ]
+    },
+    {
+      "id": "rule-6",
+      "key": "Precious Chest",
+      "name": "Precious Chest",
+      "source": "Precious Chest",
+      "level": 0,
+      "points": 200,
+      "aliases": [
+        "precious chest",
+        "Precious Chest"
+      ]
+    },
+    {
+      "id": "rule-7",
+      "key": "Magic Chest",
+      "name": "Magic Chest",
+      "source": "Magic Chest",
+      "level": 0,
+      "points": 500,
+      "aliases": [
+        "magic chest",
+        "Magic Chest"
+      ]
+    },
+    {
+      "id": "rule-8",
+      "key": "Common Crypt L-5",
+      "name": "Common Crypt",
+      "source": "Common Crypt L-5",
+      "level": 5,
+      "points": 0,
+      "aliases": [
+        "level 5 crypt",
+        "Common Crypt L-5",
+        "Level 5 Crypt"
+      ]
+    },
+    {
+      "id": "rule-9",
+      "key": "Common Crypt L-10",
+      "name": "Common Crypt",
+      "source": "Common Crypt L-10",
+      "level": 10,
+      "points": 0,
+      "aliases": [
+        "level 10 crypt",
+        "common crypt l 10",
+        "Common Crypt L-10",
+        "Level 10 Crypt"
+      ]
+    },
+    {
+      "id": "rule-10",
+      "key": "Common Crypt L-15",
+      "name": "Common Crypt",
+      "source": "Common Crypt L-15",
+      "level": 15,
+      "points": 75,
+      "aliases": [
+        "level 15 crypt",
+        "common crypt l 15",
+        "Common Crypt L-15",
+        "Level 15 Crypt"
+      ]
+    },
+    {
+      "id": "rule-11",
+      "key": "Common Crypt L-20",
+      "name": "Common Crypt",
+      "source": "Common Crypt L-20",
+      "level": 20,
+      "points": 170,
+      "aliases": [
+        "level 20 crypt",
+        "common crypt l 20",
+        "Common Crypt L-20",
+        "Level 20 Crypt"
+      ]
+    },
+    {
+      "id": "rule-12",
+      "key": "Common Crypt L-25",
+      "name": "Common Crypt",
+      "source": "Common Crypt L-25",
+      "level": 25,
+      "points": 430,
+      "aliases": [
+        "level 25 crypt",
+        "common crypt l 25",
+        "Common Crypt L-25",
+        "Level 25 Crypt"
+      ]
+    },
+    {
+      "id": "rule-13",
+      "key": "Rare Crypt L-10",
+      "name": "Rare Crypt",
+      "source": "Rare Crypt L-10",
+      "level": 10,
+      "points": 0,
+      "aliases": [
+        "level 10 rare crypt",
+        "rare crypt l 10",
+        "Rare Crypt L-10",
+        "Level 10 rare Crypt"
+      ]
+    },
+    {
+      "id": "rule-14",
+      "key": "Rare Crypt L-15",
+      "name": "Rare Crypt",
+      "source": "Rare Crypt L-15",
+      "level": 15,
+      "points": 130,
+      "aliases": [
+        "level 15 rare crypt",
+        "rare crypt l 15",
+        "Rare Crypt L-15",
+        "Level 15 rare Crypt"
+      ]
+    },
+    {
+      "id": "rule-15",
+      "key": "Rare Crypt L-20",
+      "name": "Rare Crypt",
+      "source": "Rare Crypt L-20",
+      "level": 20,
+      "points": 320,
+      "aliases": [
+        "level 20 rare crypt",
+        "rare crypt l 20",
+        "Rare Crypt L-20",
+        "Level 20 rare Crypt"
+      ]
+    },
+    {
+      "id": "rule-16",
+      "key": "Rare Crypt L-25",
+      "name": "Rare Crypt",
+      "source": "Rare Crypt L-25",
+      "level": 25,
+      "points": 630,
+      "aliases": [
+        "level 25 rare crypt",
+        "rare crypt l 25",
+        "Rare Crypt L-25",
+        "Level 25 rare Crypt"
+      ]
+    },
+    {
+      "id": "rule-17",
+      "key": "Rare Crypt L-30",
+      "name": "Rare Crypt",
+      "source": "Rare Crypt L-30",
+      "level": 30,
+      "points": 1350,
+      "aliases": [
+        "level 30 rare crypt",
+        "rare crypt l 30",
+        "Rare Crypt L-30",
+        "Level 30 rare Crypt"
+      ]
+    },
+    {
+      "id": "rule-18",
+      "key": "Epic Crypt L-15",
+      "name": "Epic Crypt",
+      "source": "Epic Crypt L-15",
+      "level": 15,
+      "points": 300,
+      "aliases": [
+        "level 15 epic crypt",
+        "epic crypt l 15",
+        "Epic Crypt L-15",
+        "Level 15 epic Crypt"
+      ]
+    },
+    {
+      "id": "rule-19",
+      "key": "Epic Crypt L-20",
+      "name": "Epic Crypt",
+      "source": "Epic Crypt L-20",
+      "level": 20,
+      "points": 600,
+      "aliases": [
+        "level 20 epic crypt",
+        "epic crypt l 20",
+        "Epic Crypt L-20",
+        "Level 20 epic Crypt"
+      ]
+    },
+    {
+      "id": "rule-20",
+      "key": "Epic Crypt L-25",
+      "name": "Epic Crypt",
+      "source": "Epic Crypt L-25",
+      "level": 25,
+      "points": 890,
+      "aliases": [
+        "level 25 epic crypt",
+        "epic crypt l 25",
+        "Epic Crypt L-25",
+        "Level 25 epic Crypt"
+      ]
+    },
+    {
+      "id": "rule-21",
+      "key": "Epic Crypt L-30",
+      "name": "Epic Crypt",
+      "source": "Epic Crypt L-30",
+      "level": 30,
+      "points": 1200,
+      "aliases": [
+        "level 30 epic crypt",
+        "epic crypt l 30",
+        "Epic Crypt L-30",
+        "Level 30 epic Crypt"
+      ]
+    },
+    {
+      "id": "rule-22",
+      "key": "Epic Crypt L-35",
+      "name": "Epic Crypt",
+      "source": "Epic Crypt L-35",
+      "level": 35,
+      "points": 2000,
+      "aliases": [
+        "level 35 epic crypt",
+        "epic crypt l 35",
+        "Epic Crypt L-35",
+        "Level 35 epic Crypt"
+      ]
+    },
+    {
+      "id": "rule-23",
+      "key": "Citadel L-10",
+      "name": "Citadel",
+      "source": "Citadel L-10",
+      "level": 10,
+      "points": 0,
+      "aliases": [
+        "level 10 citadel",
+        "citadel l 10",
+        "Citadel L-10",
+        "Level 10 Citadel"
+      ]
+    },
+    {
+      "id": "rule-24",
+      "key": "Citadel L-15",
+      "name": "Citadel",
+      "source": "Citadel L-15",
+      "level": 15,
+      "points": 30,
+      "aliases": [
+        "level 15 citadel",
+        "citadel l 15",
+        "Citadel L-15",
+        "Level 15 Citadel"
+      ]
+    },
+    {
+      "id": "rule-25",
+      "key": "Citadel L-20",
+      "name": "Citadel",
+      "source": "Citadel L-20",
+      "level": 20,
+      "points": 40,
+      "aliases": [
+        "level 20 citadel",
+        "citadel l 20",
+        "Citadel L-20",
+        "Level 20 Citadel"
+      ]
+    },
+    {
+      "id": "rule-26",
+      "key": "Citadel L-25",
+      "name": "Citadel",
+      "source": "Citadel L-25",
+      "level": 25,
+      "points": 95,
+      "aliases": [
+        "level 25 citadel",
+        "citadel l 25",
+        "Citadel L-25",
+        "Level 25 Citadel"
+      ]
+    },
+    {
+      "id": "rule-27",
+      "key": "Citadel L-30",
+      "name": "Citadel",
+      "source": "Citadel L-30",
+      "level": 30,
+      "points": 130,
+      "aliases": [
+        "level 30 citadel",
+        "citadel l 30",
+        "Citadel L-30",
+        "Level 30 Citadel"
+      ]
+    },
+    {
+      "id": "rule-28",
+      "key": "Shadow City",
+      "name": "Shadow City",
+      "source": "Shadow City",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "shadow city",
+        "Shadow City"
+      ]
+    },
+    {
+      "id": "rule-29",
+      "key": "Armageddon",
+      "name": "Armageddon",
+      "source": "Armageddon",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "armageddon",
+        "Armageddon"
+      ]
+    },
+    {
+      "id": "rule-30",
+      "key": "Dooms day",
+      "name": "Dooms day",
+      "source": "Dooms day",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "dooms day",
+        "doomsday",
+        "Dooms day"
+      ]
+    },
+    {
+      "id": "rule-31",
+      "key": "Arachne",
+      "name": "Arachne",
+      "source": "Arachne",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "arachne",
+        "arachne chest",
+        "Arachne"
+      ]
+    },
+    {
+      "id": "rule-32",
+      "key": "Ragnarok Chests",
+      "name": "Ragnarok Chests",
+      "source": "Ragnarok Chests",
+      "level": 0,
+      "points": 10,
+      "aliases": [
+        "ragnarok chests",
+        "ragnarok chest",
+        "Ragnarok Chests"
+      ]
+    },
+    {
+      "id": "rule-33",
+      "key": "Fenrir",
+      "name": "Fenrir",
+      "source": "Fenrir",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "fenrir",
+        "fenrir chest",
+        "fenrir s chest",
+        "fenrirs chest",
+        "Fenrir"
+      ]
+    },
+    {
+      "id": "rule-34",
+      "key": "Jormungandr",
+      "name": "Jormungandr",
+      "source": "Jormungandr",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "jormungandr",
+        "jormungandr chest",
+        "jormungandr s chest",
+        "jormungandrs chest",
+        "jermungandr s chest",
+        "Jormungandr"
+      ]
+    },
+    {
+      "id": "rule-35",
+      "key": "Epic Chimera squad",
+      "name": "Epic Chimera squad",
+      "source": "Epic Chimera squad",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "epic chimera squad",
+        "Epic Chimera squad"
+      ]
+    },
+    {
+      "id": "rule-36",
+      "key": "Epic Basilisk squad",
+      "name": "Epic Basilisk squad",
+      "source": "Epic Basilisk squad",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "epic basilisk squad",
+        "Epic Basilisk squad"
+      ]
+    },
+    {
+      "id": "rule-37",
+      "key": "Mimic",
+      "name": "Mimic",
+      "source": "Mimic",
+      "level": 0,
+      "points": 2,
+      "aliases": [
+        "mimic",
+        "pacified mimic chest",
+        "Mimic"
+      ]
+    },
+    {
+      "id": "rule-38",
+      "key": "Tartaros Crypt level 30",
+      "name": "Tartaros Crypt",
+      "source": "Tartaros Crypt level 30",
+      "level": 30,
+      "points": 500,
+      "aliases": [
+        "tartaros crypt level 30",
+        "Tartaros Crypt level 30"
+      ]
+    },
+    {
+      "id": "rule-39",
+      "key": "Tartaros Crypt level 35",
+      "name": "Tartaros Crypt",
+      "source": "Tartaros Crypt level 35",
+      "level": 35,
+      "points": 1000,
+      "aliases": [
+        "tartaros crypt level 35",
+        "Tartaros Crypt level 35"
+      ]
+    },
+    {
+      "id": "rule-40",
+      "key": "Hell's Blacksmith's chest",
+      "name": "Hell's Blacksmith's chest",
+      "source": "Hell's Blacksmith's chest",
+      "level": 0,
+      "points": 100,
+      "aliases": [
+        "hell s blacksmith s chest",
+        "hells blacksmiths chest",
+        "Hell's Blacksmith's chest"
+      ]
+    },
+    {
+      "id": "rule-41",
+      "key": "Epic Fenrir squad",
+      "name": "Epic Fenrir squad",
+      "source": "Epic Fenrir squad",
+      "level": 0,
+      "points": 700,
+      "aliases": [
+        "epic fenrir squad",
+        "Epic Fenrir squad"
+      ]
+    },
+    {
+      "id": "rule-42",
+      "key": "Epic Inferno squad",
+      "name": "Epic Inferno squad",
+      "source": "Epic Inferno squad",
+      "level": 0,
+      "points": 700,
+      "aliases": [
+        "epic inferno squad",
+        "Epic Inferno squad"
+      ]
+    },
+    {
+      "id": "rule-43",
+      "key": "Epic Undead squad",
+      "name": "Epic Undead squad",
+      "source": "Epic Undead squad",
+      "level": 0,
+      "points": 700,
+      "aliases": [
+        "epic undead squad",
+        "Epic Undead squad"
+      ]
+    },
+    {
+      "id": "rule-44",
+      "key": "Arachne's Swarm Epic squad",
+      "name": "Arachne's Swarm Epic squad",
+      "source": "Arachne's Swarm Epic squad",
+      "level": 0,
+      "points": 700,
+      "aliases": [
+        "arachne s swarm epic squad",
+        "Arachne's Swarm Epic squad"
+      ]
+    },
+    {
+      "id": "rule-45",
+      "key": "Yao Monster",
+      "name": "Yao Monster",
+      "source": "Yao Monster",
+      "level": 0,
+      "points": 700,
+      "aliases": [
+        "yao monster",
+        "Yao Monster"
+      ]
+    },
+    {
+      "id": "rule-46",
+      "key": "Vault of the Ancients L-25-29",
+      "name": "Vault of the Ancients",
+      "source": "Vault of the Ancients L-25-29",
+      "level": 25,
+      "points": 0,
+      "aliases": [
+        "level 25 29 vault of the ancients",
+        "vault of the ancients l 25 29",
+        "vault of the ancients level 25 29",
+        "Vault of the Ancients L-25-29",
+        "Level 25-29 Vault of the Ancients"
+      ]
+    }
+  ],
+  "chestNames": [
+    "Abandoned Chest",
+    "Ancient Bastion Chest",
+    "Ancient Warrior's Chest",
+    "Ancients’ Chest",
+    "Ancient’s Chest",
+    "Arachne Chest",
+    "Barbarian Chest",
+    "Bone Chest",
+    "Braided Chest",
+    "Bronze Chest",
+    "Chest of Authority",
+    "Chest of the Cursed",
+    "Cobalt Chest",
+    "Cobra Chest",
+    "Common Chest of Wealth",
+    "Conqueror's Chest",
+    "Cursed Chest",
+    "Cursed Citadel Chest",
+    "Elegant Chest",
+    "Elven Chest",
+    "Elven Citadel Chest",
+    "Epic Chest of Wealth",
+    "Epic Monster Chest",
+    "Fenrir's Chest",
+    "Fire Chest",
+    "Fire Hydra Chest",
+    "Forgotten Chest",
+    "Frozen Queen chest",
+    "Gladiator's Chest",
+    "Gnome Workshop Chest",
+    "Golden Chest",
+    "Golden Guardian Ascendant Chest",
+    "Golden Guardian Epic Chest",
+    "Golden Guardian Legendary Chest",
+    "Governor's Chest",
+    "Harpy Chest",
+    "Hell's Blacksmith's chest",
+    "House of Horrors Chest",
+    "Infernal Chest",
+    "Inferno Chest",
+    "Jérmungandr's Chest",
+    "Magic Chest",
+    "Mayan Chest",
+    "Merchant's Chest",
+    "Minotaur Chest",
+    "Orc Chest",
+    "Pacified Mimic Chest",
+    "Precious Chest",
+    "Priest's Chest",
+    "Quick March Chest",
+    "Rare Chest of Wealth",
+    "Rare Dragon Chest",
+    "Runic Chest",
+    "Sacred Rituals Chest",
+    "Sand Chest",
+    "Sapphire Chest",
+    "Scarab Chest",
+    "Scorpion Chest",
+    "Shadow Chest",
+    "Silver Chest",
+    "Snowman chest",
+    "Stone Chest",
+    "Titansteel Chest",
+    "Trillium Chest",
+    "Turtle Chest",
+    "Uncommon Chest of Wealth",
+    "Undead Chest",
+    "Union Chest",
+    "Union of Triumph personal reward",
+    "White Wood Chest",
+    "Wooden Chest"
+  ],
+  "players": [
+    {
+      "name": "AKI",
+      "aliases": [
+        "AKL",
+        "AK1"
+      ]
+    },
+    {
+      "name": "Alibek",
+      "aliases": []
+    },
+    {
+      "name": "Ameglil",
+      "aliases": []
+    },
+    {
+      "name": "Ameglil 1",
+      "aliases": []
+    },
+    {
+      "name": "Angry Boyka",
+      "aliases": []
+    },
+    {
+      "name": "Aquarius",
+      "aliases": []
+    },
+    {
+      "name": "AR",
+      "aliases": []
+    },
+    {
+      "name": "Araning",
+      "aliases": []
+    },
+    {
+      "name": "Arch Enemy",
+      "aliases": []
+    },
+    {
+      "name": "ARIANS",
+      "aliases": []
+    },
+    {
+      "name": "Arthur Dent",
+      "aliases": []
+    },
+    {
+      "name": "aspect",
+      "aliases": []
+    },
+    {
+      "name": "Assurancetourix",
+      "aliases": []
+    },
+    {
+      "name": "Ayanen",
+      "aliases": []
+    },
+    {
+      "name": "Ayro",
+      "aliases": [
+        "Ayto"
+      ]
+    },
+    {
+      "name": "Baby B",
+      "aliases": []
+    },
+    {
+      "name": "Baby Gimli",
+      "aliases": []
+    },
+    {
+      "name": "Baby Kel",
+      "aliases": []
+    },
+    {
+      "name": "baby RF",
+      "aliases": []
+    },
+    {
+      "name": "Bajind",
+      "aliases": []
+    },
+    {
+      "name": "Blackbrand",
+      "aliases": []
+    },
+    {
+      "name": "BlackPanther",
+      "aliases": []
+    },
+    {
+      "name": "Bloody Mary",
+      "aliases": []
+    },
+    {
+      "name": "BMS Tac",
+      "aliases": []
+    },
+    {
+      "name": "Boin",
+      "aliases": []
+    },
+    {
+      "name": "Bomli",
+      "aliases": []
+    },
+    {
+      "name": "Borin",
+      "aliases": []
+    },
+    {
+      "name": "Briana",
+      "aliases": []
+    },
+    {
+      "name": "Brigant",
+      "aliases": []
+    },
+    {
+      "name": "Burdana",
+      "aliases": []
+    },
+    {
+      "name": "Cannon",
+      "aliases": []
+    },
+    {
+      "name": "Cannon II",
+      "aliases": [
+        "Cannon lt",
+        "Cannon Il",
+        "Cannon I"
+      ]
+    },
+    {
+      "name": "Cedora",
+      "aliases": []
+    },
+    {
+      "name": "CHARSI",
+      "aliases": []
+    },
+    {
+      "name": "cheoles",
+      "aliases": []
+    },
+    {
+      "name": "Ciroleman",
+      "aliases": []
+    },
+    {
+      "name": "Claudius Maximus",
+      "aliases": []
+    },
+    {
+      "name": "CP City Thanos",
+      "aliases": []
+    },
+    {
+      "name": "CRAZY DOG",
+      "aliases": []
+    },
+    {
+      "name": "cruella",
+      "aliases": []
+    },
+    {
+      "name": "D4RK",
+      "aliases": []
+    },
+    {
+      "name": "daimond",
+      "aliases": []
+    },
+    {
+      "name": "Daivari Hradhune",
+      "aliases": []
+    },
+    {
+      "name": "Dani",
+      "aliases": []
+    },
+    {
+      "name": "Daniel",
+      "aliases": []
+    },
+    {
+      "name": "Delaris",
+      "aliases": []
+    },
+    {
+      "name": "DEVIL",
+      "aliases": []
+    },
+    {
+      "name": "Difedeyl",
+      "aliases": []
+    },
+    {
+      "name": "Dokazahn",
+      "aliases": []
+    },
+    {
+      "name": "DP",
+      "aliases": []
+    },
+    {
+      "name": "Dr Fantastic",
+      "aliases": []
+    },
+    {
+      "name": "Elaror",
+      "aliases": []
+    },
+    {
+      "name": "Elneing",
+      "aliases": []
+    },
+    {
+      "name": "Fagon",
+      "aliases": []
+    },
+    {
+      "name": "Fanvel",
+      "aliases": []
+    },
+    {
+      "name": "Faranir",
+      "aliases": []
+    },
+    {
+      "name": "Fergas",
+      "aliases": []
+    },
+    {
+      "name": "Flamewood",
+      "aliases": []
+    },
+    {
+      "name": "Forcesmith",
+      "aliases": []
+    },
+    {
+      "name": "Fozzy",
+      "aliases": []
+    },
+    {
+      "name": "FREDI",
+      "aliases": []
+    },
+    {
+      "name": "fredlagast 2",
+      "aliases": []
+    },
+    {
+      "name": "FreezeDos",
+      "aliases": []
+    },
+    {
+      "name": "Furious Marks",
+      "aliases": []
+    },
+    {
+      "name": "G Man",
+      "aliases": [
+        "GMan"
+      ]
+    },
+    {
+      "name": "G42",
+      "aliases": []
+    },
+    {
+      "name": "Gadar",
+      "aliases": []
+    },
+    {
+      "name": "Gala",
+      "aliases": []
+    },
+    {
+      "name": "Galaduing",
+      "aliases": []
+    },
+    {
+      "name": "Gardazragore",
+      "aliases": []
+    },
+    {
+      "name": "GILLY IS A SISSYLALA",
+      "aliases": []
+    },
+    {
+      "name": "Gimli",
+      "aliases": []
+    },
+    {
+      "name": "Hammer",
+      "aliases": []
+    },
+    {
+      "name": "HCH",
+      "aliases": [
+        "HCH."
+      ]
+    },
+    {
+      "name": "HELO MALEVOLA",
+      "aliases": []
+    },
+    {
+      "name": "Hermes",
+      "aliases": [
+        "Hermes,"
+      ]
+    },
+    {
+      "name": "Hermes 2",
+      "aliases": []
+    },
+    {
+      "name": "Huzar",
+      "aliases": []
+    },
+    {
+      "name": "Ice",
+      "aliases": []
+    },
+    {
+      "name": "Inferno",
+      "aliases": []
+    },
+    {
+      "name": "Jaguar",
+      "aliases": []
+    },
+    {
+      "name": "Jenny Alpha",
+      "aliases": []
+    },
+    {
+      "name": "Jenny lucky",
+      "aliases": []
+    },
+    {
+      "name": "Jenny lucky SK",
+      "aliases": []
+    },
+    {
+      "name": "JET",
+      "aliases": []
+    },
+    {
+      "name": "Joey Roo",
+      "aliases": []
+    },
+    {
+      "name": "Julz",
+      "aliases": []
+    },
+    {
+      "name": "Kaoshiung",
+      "aliases": []
+    },
+    {
+      "name": "KARA HAN",
+      "aliases": []
+    },
+    {
+      "name": "karterites",
+      "aliases": []
+    },
+    {
+      "name": "Katia",
+      "aliases": []
+    },
+    {
+      "name": "KB FENIX",
+      "aliases": []
+    },
+    {
+      "name": "Kelerosir I",
+      "aliases": []
+    },
+    {
+      "name": "Kelerosir II",
+      "aliases": []
+    },
+    {
+      "name": "KING CRAZYDOG RAGNAR",
+      "aliases": []
+    },
+    {
+      "name": "King DG",
+      "aliases": []
+    },
+    {
+      "name": "King of Cappadocia",
+      "aliases": []
+    },
+    {
+      "name": "KUL",
+      "aliases": []
+    },
+    {
+      "name": "Lebrimir",
+      "aliases": []
+    },
+    {
+      "name": "LEGEND",
+      "aliases": []
+    },
+    {
+      "name": "Leonora",
+      "aliases": []
+    },
+    {
+      "name": "Les McBurny",
+      "aliases": []
+    },
+    {
+      "name": "LionO",
+      "aliases": [
+        "Lion",
+        "Lion:"
+      ]
+    },
+    {
+      "name": "Little Bomli",
+      "aliases": []
+    },
+    {
+      "name": "Little Bor",
+      "aliases": []
+    },
+    {
+      "name": "little RF",
+      "aliases": []
+    },
+    {
+      "name": "LOGON",
+      "aliases": []
+    },
+    {
+      "name": "Luchdisilas",
+      "aliases": []
+    },
+    {
+      "name": "Lysandra",
+      "aliases": []
+    },
+    {
+      "name": "Maedrosor",
+      "aliases": []
+    },
+    {
+      "name": "Magnus IV",
+      "aliases": []
+    },
+    {
+      "name": "Maladred",
+      "aliases": []
+    },
+    {
+      "name": "Malan",
+      "aliases": []
+    },
+    {
+      "name": "Malann",
+      "aliases": [
+        "Malan",
+        "Malann."
+      ]
+    },
+    {
+      "name": "malthael",
+      "aliases": []
+    },
+    {
+      "name": "Marafil",
+      "aliases": []
+    },
+    {
+      "name": "Marks88",
+      "aliases": [
+        "Marks88."
+      ]
+    },
+    {
+      "name": "Marksman",
+      "aliases": []
+    },
+    {
+      "name": "Millie",
+      "aliases": []
+    },
+    {
+      "name": "MINI RF",
+      "aliases": []
+    },
+    {
+      "name": "Modifym",
+      "aliases": []
+    },
+    {
+      "name": "molak the chastined",
+      "aliases": []
+    },
+    {
+      "name": "Morpheus",
+      "aliases": [
+        "Morpheus."
+      ]
+    },
+    {
+      "name": "Murasame",
+      "aliases": []
+    },
+    {
+      "name": "Nicole",
+      "aliases": []
+    },
+    {
+      "name": "Niri 2",
+      "aliases": []
+    },
+    {
+      "name": "Niri 2 CP City",
+      "aliases": [
+        "Niri 2.CP City"
+      ]
+    },
+    {
+      "name": "Nirinen",
+      "aliases": []
+    },
+    {
+      "name": "Nirinen 3",
+      "aliases": []
+    },
+    {
+      "name": "Nofur",
+      "aliases": []
+    },
+    {
+      "name": "NoMaD",
+      "aliases": [
+        "NoMaD."
+      ]
+    },
+    {
+      "name": "Nuclear Verd",
+      "aliases": []
+    },
+    {
+      "name": "Nyquil for Sissylas",
+      "aliases": []
+    },
+    {
+      "name": "Oleg",
+      "aliases": []
+    },
+    {
+      "name": "OLIVER S",
+      "aliases": [
+        "OLIVER S."
+      ]
+    },
+    {
+      "name": "Ollinan",
+      "aliases": []
+    },
+    {
+      "name": "ONUR6534",
+      "aliases": []
+    },
+    {
+      "name": "OSAR",
+      "aliases": []
+    },
+    {
+      "name": "PATO",
+      "aliases": []
+    },
+    {
+      "name": "Pucela",
+      "aliases": []
+    },
+    {
+      "name": "Ragnar",
+      "aliases": []
+    },
+    {
+      "name": "Raj",
+      "aliases": []
+    },
+    {
+      "name": "RaKo",
+      "aliases": []
+    },
+    {
+      "name": "Rangar",
+      "aliases": []
+    },
+    {
+      "name": "Razor Ramon",
+      "aliases": []
+    },
+    {
+      "name": "REBUR",
+      "aliases": []
+    },
+    {
+      "name": "Red Wolf",
+      "aliases": []
+    },
+    {
+      "name": "revenant",
+      "aliases": []
+    },
+    {
+      "name": "Rightable Tritos",
+      "aliases": []
+    },
+    {
+      "name": "Rondas o Lusitano",
+      "aliases": [
+        "Rondas 0 Lusitano"
+      ]
+    },
+    {
+      "name": "Samugor",
+      "aliases": []
+    },
+    {
+      "name": "Samujora",
+      "aliases": []
+    },
+    {
+      "name": "Sartana",
+      "aliases": []
+    },
+    {
+      "name": "saurabh ind",
+      "aliases": []
+    },
+    {
+      "name": "Scipio",
+      "aliases": []
+    },
+    {
+      "name": "Sean HELLAS",
+      "aliases": []
+    },
+    {
+      "name": "SeeKing Light",
+      "aliases": []
+    },
+    {
+      "name": "Shadowbringer",
+      "aliases": []
+    },
+    {
+      "name": "Shafayat Shumon",
+      "aliases": []
+    },
+    {
+      "name": "Sharpfist OG",
+      "aliases": []
+    },
+    {
+      "name": "Shermanator",
+      "aliases": []
+    },
+    {
+      "name": "Silverwing EL",
+      "aliases": []
+    },
+    {
+      "name": "Sir Guy",
+      "aliases": []
+    },
+    {
+      "name": "Sir Loin",
+      "aliases": []
+    },
+    {
+      "name": "Sir PoppaGimrin",
+      "aliases": []
+    },
+    {
+      "name": "Sir Szymon",
+      "aliases": []
+    },
+    {
+      "name": "Slomper",
+      "aliases": [
+        "Slomper:"
+      ]
+    },
+    {
+      "name": "Socko",
+      "aliases": [
+        "Socko."
+      ]
+    },
+    {
+      "name": "socko is a sissylala",
+      "aliases": []
+    },
+    {
+      "name": "Socks",
+      "aliases": []
+    },
+    {
+      "name": "SPARTACUS",
+      "aliases": []
+    },
+    {
+      "name": "Stergios",
+      "aliases": []
+    },
+    {
+      "name": "Stoney",
+      "aliases": []
+    },
+    {
+      "name": "Stoney1985",
+      "aliases": []
+    },
+    {
+      "name": "Szybki szymonek",
+      "aliases": []
+    },
+    {
+      "name": "Thanos",
+      "aliases": []
+    },
+    {
+      "name": "Thetandis",
+      "aliases": []
+    },
+    {
+      "name": "THORN IN THE SIDE",
+      "aliases": []
+    },
+    {
+      "name": "Tonia Hells Angel",
+      "aliases": []
+    },
+    {
+      "name": "Tonia SK Angel",
+      "aliases": [
+        "Crying BOB"
+      ]
+    },
+    {
+      "name": "Trouble N Strife",
+      "aliases": [
+        "Trouble N strife"
+      ]
+    },
+    {
+      "name": "Velaris",
+      "aliases": []
+    },
+    {
+      "name": "VERD IS A SISSY LALA",
+      "aliases": []
+    },
+    {
+      "name": "wee Slomper",
+      "aliases": []
+    },
+    {
+      "name": "Zal",
+      "aliases": []
+    },
+    {
+      "name": "zaphod",
+      "aliases": []
+    },
+    {
+      "name": "Zevs",
+      "aliases": []
+    },
+    {
+      "name": "Zulki 2",
+      "aliases": []
+    },
+    {
+      "name": "Zulkilabar",
+      "aliases": []
+    }
+  ]
+}

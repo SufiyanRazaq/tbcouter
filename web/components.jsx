@@ -1,0 +1,17 @@
+import React, { useEffect, useRef } from 'react';
+import { X, PackageOpen, ArrowUpRight, LoaderCircle, Check, AlertCircle } from 'lucide-react';
+
+export function ChestMark({ small = false }) { return <span className={'chest-mark '+(small?'small':'')} aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M6 18h28v15H6zM6 18v-6q14-12 28 0v6" fill="currentColor"/><path d="M14 10v23m12-23v23M6 20h28" stroke="#1c3d32" strokeWidth="2.2"/><rect x="17" y="17" width="6" height="9" rx="1.5" fill="#1c3d32"/></svg></span>; }
+export function Button({ children, icon: Icon, variant = 'primary', className = '', busy, ...props }) { return <button className={`button ${variant} ${className}`} disabled={busy || props.disabled} {...props}>{busy?<LoaderCircle size={16} className="spin"/>:Icon?<Icon size={16}/>:null}{children}</button>; }
+export function Avatar({ name = '?', index = 0, small = false }) { const colors=['sage','ochre','lavender','blue','rose']; return <span className={`avatar ${colors[index%5]} ${small?'sm':''}`}>{name.trim().split(/\s+/).map(x=>x[0]).slice(0,2).join('').toUpperCase()}</span>; }
+export function Badge({ children, variant = 'green' }) { return <span className={`badge ${variant}`}>{children}</span>; }
+export function Empty({ title = 'No chests yet', text = 'Your clan’s contributions will appear here.', action, icon: Icon = PackageOpen }) { return <div className="empty"><span className="empty-icon"><Icon size={25} strokeWidth={1.5}/></span><h3>{title}</h3><p>{text}</p>{action}</div>; }
+export function Modal({ title, subtitle, children, onClose, wide = false }) {
+  const ref=useRef(null);
+  useEffect(()=>{const prev=document.activeElement; ref.current?.focus(); const key=e=>{if(e.key==='Escape')onClose();if(e.key==='Tab'){const list=ref.current?.querySelectorAll('button:not(:disabled),input,select,textarea,a[href]');if(!list?.length)return;const first=list[0],last=list[list.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}};document.addEventListener('keydown',key);const prevOverflow=document.body.style.overflow;document.body.style.overflow='hidden';return()=>{document.removeEventListener('keydown',key);document.body.style.overflow=prevOverflow;prev?.focus?.();};},[]);
+  return <div className="modal-backdrop" onMouseDown={e=>{if(e.target===e.currentTarget)onClose();}}><section ref={ref} tabIndex={-1} className={`modal ${wide?'wide':''}`} role="dialog" aria-modal="true" aria-labelledby="modal-title"><header><div><h2 id="modal-title">{title}</h2>{subtitle&&<p>{subtitle}</p>}</div><button className="icon-button" onClick={onClose} aria-label="Close dialog"><X size={20}/></button></header>{children}</section></div>;
+}
+export function Field({ label, hint, children, className = '' }) { return <label className={'field '+className}><span>{label}</span>{children}{hint&&<small>{hint}</small>}</label>; }
+export function ErrorMessage({ children }) { return children?<p className="form-error" role="alert"><AlertCircle size={16}/>{children}</p>:null; }
+export function Toast({ toast }) { return toast?<div className={`toast ${toast.error?'error':''}`} role="status">{toast.error?<AlertCircle size={18}/>:<Check size={18}/>}<span>{toast.message}</span></div>:null; }
+export function SectionHead({ title, subtitle, action }) { return <div className="section-head"><div><h2>{title}</h2>{subtitle&&<p>{subtitle}</p>}</div>{action}</div>; }
